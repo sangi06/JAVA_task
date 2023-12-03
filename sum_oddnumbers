@@ -1,0 +1,13 @@
+//SUM OF ODD NUMBERS 
+
+public class OddSum{
+    public static void main(String[] args) {
+        int firstOdd = 1;
+        int lastOdd = 100;
+        int n = (lastOdd - firstOdd) / 2 + 1;
+
+        int sum = n * (firstOdd + lastOdd) / 2;
+
+        System.out.println("The sum of odd numbers between 1 and 100 is: " + sum);
+    }
+}
